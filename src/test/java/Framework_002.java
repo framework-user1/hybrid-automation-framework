@@ -39,7 +39,6 @@ public class Framework_002 {
   @Test
   public void test02() throws Exception {
 	  try{
-		System.out.println("This is a test message for Github");
 		SignIn_Action.Execute(iTestCaseRow);
 		ProductSelect_Action.productType(iTestCaseRow);
 /*		ProductSelect_Action.productNumber(iTestCaseRow);
