@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="classes">
+  <test name="SanityTests">
+    <classes>
+      <class name="test.java.Framework_001"/>
+    </classes>
+  </test> <!-- SanityTests -->
+  <test name="SanityTests(failed)" parallel="classes">
+    <classes>
+      <class name="test.java.Framework_001">
+        <methods>
+          <include name="test1"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- test.java.Framework_001 -->
+    </classes>
+  </test> <!-- SanityTests(failed) -->
+</suite> <!-- Failed suite [Suite] -->

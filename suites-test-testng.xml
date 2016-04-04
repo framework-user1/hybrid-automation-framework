@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="maven test suite" parallel="false" thread-count="2" >
+  <test name="Suite2">
+    <parameter name="test-name" value="Test Two"/>
+    <classes>
+      <class name="test.java.Framework_001"/>
+      <class name="test.java.Framework_002"/>
+    </classes>
+  </test>
+</suite>
