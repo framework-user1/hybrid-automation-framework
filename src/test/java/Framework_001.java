@@ -32,7 +32,7 @@ public class Framework_001{
 	    // http://www.toolsqa.com/test-case-with-log4j/
 	    // http://www.toolsqa.com/log4j-logging/
 	  	
-	  System.out.println("Checking Github Integration..");
+	  System.out.println("Checking Github Integration!!");
 	  
 	  
 	  DOMConfigurator.configure("log4j.xml");
